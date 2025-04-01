@@ -1,18 +1,16 @@
-## Getting Started
+## Диаграммы классов/объектов с использованием языка UML
+### ознакомиться с основными возможностями языка UML по построению диаграммы классов/объектов
+### Студент: Николаев Д.А.
+### Группа: ЗКИ23-17Б
+#### Общая постановка задачи
+##### Разработать программу по вариантам и построить UML-диаграммы всех классов/объектов для программы.
+##### Для каждого варианта имеется набор из четырех сущностей. Необходимо выстроить иерархию наследования. В каждом классе (базовом и производных) должно быть  не менее одного числового и одного строкового поля. При вводе числовых параметров обязательна проверка на число и на диапазон (даже если число может быть любое, проверку необходимо реализовать)
+##### Для всех классов должны быть реализованы конструкторы (по умолчанию, с параметрами), методы equals(), hashCode(), toString()
+##### Реализовать консольное Java-приложение, которое имеет пользовательское меню, содержащее следующие пункты:
+- Добавить новый элемент (Элементы должны добавляться в коллекцию элементов типа базового класса. Необходимо предусмотреть возможность добавления любого объекта производного класса в данную коллекцию)
+- Удалить элемент по индексу
+- Вывод всех элементов в консоль
+- Сравнение двух элементов на равенство (по индексам)
+- Завершение работы приложения
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+#### Вариант задания №10: Корабль, пароход, парусник, корвет
